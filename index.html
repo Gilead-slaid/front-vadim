@@ -5,8 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        form {
+            border: 3px dashed tomato;
+        }
+    </style>
 </head>
 <body>
-Привет!
+    <div class="top">
+        <blockquote><u><h1>Регистрация</h1></u></blockquote>
+        </div>
+    <form action="https://vk.com/" method="post">
+        <h3><label>Имя
+          <input type="text" placeholder="Имя" name="name">
+        </label></h3>
+        <h3><label>Фамилия
+            <input type="text" placeholder="Фамилия" name="surname">
+          </label></h3> 
+          <h3><label>Телефон
+            <input type="number" placeholder="Телефон" name="phone">
+          </label></h3>
+          <h3><label>Почта
+            <input type="email" placeholder="Почта" name="mail">
+          </label></h3>
+          <h3><label>Пароль
+            <input type="password" placeholder="Пароль" name="pass">
+          </label></h3>           
+          <h3><label>Пол
+            <input type="radio" name="q"> Муж
+            <input type="radio" name="q"> Жен
+          </label></h3>
+          <input type="checkbox" name="indetify"> Я согласен о передаче своих данных
+          </label></h3>
+          <div><button type="submit">Отправить</button></div>
+      </form>
 </body>
 </html>
