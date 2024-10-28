@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+.yellow{
+    color: yellow;
+    
+}
+.green {
+	color:green;
+}
+
+.block{
+  text-decoration: underline solid red;
+	font-size: 25px;
+} 
+#unicalID{
+	color:blue;
+    background-color: aquamarine;
+}
+#regularID{
+	color:blue;
+    background-color: aquamarine;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.string{
+    text-decoration: line-through solid red;
+  } 
+  
