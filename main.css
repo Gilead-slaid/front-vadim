@@ -1,28 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
-.yellow{
-    color: yellow;
-    
-}
-.green {
-	color:green;
+
+body {
+    color: color gainsboro;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: aquamarine;
 }
 
-.block{
-  text-decoration: underline solid red;
-	font-size: 25px;
-} 
-#unicalID{
-	color:blue;
-    background-color: aquamarine;
+.padding-60 {
+    padding-top: 60px;
+    font-size: 25px;
+    background: blue;
+    text-align: center;
 }
-#regularID{
-	color:blue;
-    background-color: aquamarine;
+
+.padding-20-80 {
+    padding: 20px 60px 20px 60px;
+    border: 3px solid red;
+    margin: 20px 8px 76px 2px;
+    background: pink;
+    text-align: justify;
 }
-body{
-	font-family: 'Roboto', sans-serif;
+
+.margin {
+    padding: 20px;
+    font-size: 30px;
+    border: 6px dotted hotpink;
+    margin: 0 auto;
+    border-radius: 100px 100px / 50px;
+    width: 700px;
+    text-align: center;
+    color:honeydew;
+    background-image: url(https://s00.yaplakal.com/pics/pics_preview/1/5/3/15822351.jpg);
 }
-.string{
-    text-decoration: line-through solid red;
-  } 
-  
+
+.height {
+    border: 6px dashed yellow;
+    margin: 0 auto 0;
+    height: 120px;
+    width: 50px;
+    padding: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
