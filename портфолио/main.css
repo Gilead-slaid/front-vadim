@@ -1,0 +1,19 @@
+.container {
+    width: 1440px;
+    height: 154px;
+    padding: 55px;
+    display: flex;
+    background-color: rgba(7, 32, 63, 1);
+}
+.begin {
+    justify-content: flex-start;
+    margin-left: 135px;
+    color:rgba(255, 255, 255, 1);
+}
+.end {
+    display: flex;
+    margin-right: 135px;
+    gap: 20px;
+    align-items: flex-end;
+    color: rgba(255, 255, 255, 1);
+}
