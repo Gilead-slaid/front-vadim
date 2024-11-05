@@ -1,47 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
 
 body {
-    color: color gainsboro;
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
     background-color: aquamarine;
 }
 
-.padding-60 {
-    padding-top: 60px;
-    font-size: 25px;
-    background: blue;
-    text-align: center;
+.whiteblock {
+    font-size: 10px;
+    padding: 16px;
+    background: white;
+    display: inline-block;
 }
 
-.padding-20-80 {
-    padding: 20px 60px 20px 60px;
-    border: 3px solid red;
-    margin: 20px 8px 76px 2px;
-    background: pink;
-    text-align: justify;
+.greyblock {
+    background-color:rgba(166, 166, 166, 1);
+    padding: 16px;
+    display: inline-block;
+    border-radius: 24px;
+
 }
 
-.margin {
-    padding: 20px;
-    font-size: 30px;
-    border: 6px dotted hotpink;
-    margin: 0 auto;
-    border-radius: 100px 100px / 50px;
-    width: 700px;
-    text-align: center;
-    color:honeydew;
-    background-image: url(https://s00.yaplakal.com/pics/pics_preview/1/5/3/15822351.jpg);
+
+.goldblock {
+    background-image:url('https://pic.rutubelist.ru/user/9e/bb/9ebb0a20134240161427f5950ea7a2d9.jpg');
+    width: 149px;
+    aspect-ratio: 1;
+    border-radius: 16px;
 }
 
-.height {
-    border: 6px dashed yellow;
-    margin: 0 auto 0;
-    height: 120px;
-    width: 50px;
-    padding: 100px;
-    border-radius: 50%;
+.buttonblock {
+    background-color: rgba(85, 85, 85, 1);
+    margin-top: 16px;
+    padding: 10px 0;
+    border-radius: 10px;
+    width: 100%;
     text-align: center;
+    display:block;
 }
