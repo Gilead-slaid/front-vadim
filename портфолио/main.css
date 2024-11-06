@@ -1,19 +1,32 @@
-.container {
-    width: 1440px;
-    height: 154px;
-    padding: 55px;
-    display: flex;
-    background-color: rgba(7, 32, 63, 1);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+.header{
+display: block;    
 }
-.begin {
-    justify-content: flex-start;
+.container {
+    display: flex;
+    height: 154px;
+    align-items: center;
+    background-color: rgba(7, 32, 63, 1);
+    gap: 222px;
+    max-width: 1440px;
+    justify-content: space-between;
+}
+.nickname {
+    font-size: 36px;
     margin-left: 135px;
     color:rgba(255, 255, 255, 1);
 }
-.end {
+.nav {
     display: flex;
+    font-size: 36px;
+    gap: 40px;
     margin-right: 135px;
-    gap: 20px;
-    align-items: flex-end;
-    color: rgba(255, 255, 255, 1);
+}
+
+.nav a {
+    color:rgba(255, 255, 255, 1);
+}
+
+.body {
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
