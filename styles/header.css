@@ -1,0 +1,27 @@
+.header {
+    background-color: rgba(7, 32, 63, 1);
+    height: 154px;
+    padding: 55px 0;
+    }
+    
+    .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    }
+    
+    .header__nickname {
+        font-size: 36px;
+        color:rgba(255, 255, 255, 1);
+    }
+
+    .header__nav {
+        display: flex;
+        font-size: 36px;
+        gap: 40px;
+
+    }
+    
+    .header__nav-link {
+        color:rgba(255, 255, 255, 1);
+    }
