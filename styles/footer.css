@@ -1,0 +1,28 @@
+.footer {
+    background-color: rgba(7, 32, 63, 1);
+    height: 154px;
+    padding: 55px 0;
+    }
+    
+    .footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    }
+    
+    .footer__nickname {
+        font-size: 36px;
+        font-weight:bold;
+        color:rgba(255, 255, 255, 1);
+    }
+
+    .footer__nav {
+        display: flex;
+        font-size: 36px;
+        gap: 40px;
+
+    }
+    
+    .footer__nav-link {
+        color:rgba(255, 255, 255, 1);
+    }
