@@ -1,0 +1,70 @@
+.quotes {
+  
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+  align-items: center;
+  color:#000000 ;
+    
+  }
+  
+  .quotes__title {
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .quotes__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .quotes__list-item {
+    padding: 15px;
+    border-left: 4px solid rgba(7, 32, 63, 1) ;
+    background-color:  rgb(211, 211, 235);;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    border-radius: 5px;
+  }
+  
+  .quotes__controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .quotes__select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  #random-quotes-button{
+    background-color: rgba(7, 32, 63, 1); 
+    border: none; /* Убираем границы */
+    color: white; /* Текст белого цвета */
+    padding: 15px 30px; /* Отступы по вертикали и горизонтали */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Чтобы кнопка не занимала всю ширину */
+    font-size: 16px; /* Размер шрифта */
+    margin: 10px 2px; /* Отступы для оформления */
+    cursor: pointer; /* Курсор при наведении */
+    border-radius: 5px; /* Скругленные углы */
+    transition: background-color 0.3s; /* Анимация изменения цвета фона */
+    border-radius: 50px;
+  }
+  #random-quotes-button:hover {
+    background-color: rgb(3, 15, 29);
+  }
+  

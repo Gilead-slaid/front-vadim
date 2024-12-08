@@ -29,7 +29,7 @@
     height: 100%;
     overflow:hidden;
 }
-.work__naked {
+.work__picture {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -60,4 +60,26 @@
 }
 .work__block:nth-child(2n) {
     flex-direction: row-reverse;
+}
+.work__button {
+    background-color: #D9D9D9;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    border-radius: 53px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 28.12px 75px 38.12px 75px;
+    max-width: 605px;
+    max-height: 106px;
+    white-space: nowrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.work__button:hover {
+    background-color: rgb(3, 15, 29);
+    color: #D9D9D9;
 }

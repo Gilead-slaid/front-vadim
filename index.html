@@ -9,21 +9,21 @@
   </head>
   <body>
 
-    <header class="header">
+    <header id="one" class="header">
       <div class="container">
         <div class="header__content">
           <div class="header__nickname">@Gilead</div>
 
           <nav class="header__nav">
-            <a class="header__nav-link" href="#Моиработы">МОИ РАБОТЫ</a>
-            <a class="header__nav-link" href="#Обомне">ОБО МНЕ</a>
-            <a class="header__nav-link" href="#Контакты">КОНТАКТЫ</a>
+            <a class="header__nav-link" href="#works">МОИ РАБОТЫ</a>
+            <a class="header__nav-link" href="#about">ОБО МНЕ</a>
+            <a class="header__nav-link" href="#contacts">КОНТАКТЫ</a>
           </nav>
         </div>
       </div>
     </header>
 
-    <section class="start-screen">
+    <section id="about" class="start-screen">
       <div class="container">
         <div class="start-screen__content">
           <div class="start-screen__text">
@@ -42,7 +42,7 @@
       <div class="container">
         <div class="whatcanido__text">
           <h1>Я УМЕЮ</h1>
-          <p></p>
+        
         </div>
         <div class="whatcanido__content">
           <div class="whatcanido__block-block">
@@ -69,11 +69,11 @@
       </div>
     </section>
 
-    <section class="work">
+    <section id="works" class="work">
       <div class="container">
         <div class="work__text">
           <h1>МОИ ПРОЕКТЫ</h1>
-          <p></p>
+         
         </div>
         <div class="work__class">
           <div class="work__block">
@@ -104,8 +104,49 @@
             </div>
           </div>
         </div>
+        <button class="work__button"> Добавить проект </button>
       </div>
+     
     </section>
+
+    <section class="quotes">
+      <div class ="container">
+      <h2 class="quotes__title">Мои цитаты</h2>
+      <ul class="quotes__list">
+      </ul>
+      <label for="authors-dropdown">Выберите автора:</label>
+      <select id="authors-dropdown">
+          <option value="">Случайный автор</option>
+      </select>
+      <button id="random-quotes-button">Случайные цитаты</button>
+  </div>
+  </section>
+
+    <div class="modal js-modal">
+      <div class="modal__bg"></div>
+      <div class="modal__wrap">
+        <div>
+          <div>
+            <input type="text" id="name" placeholder="Title">
+            <input type="text" id="description" placeholder="Annotation">
+            <input type="text" id="link" placeholder="Link to the image">
+          </div>
+          <button id="newProject">Добавить проект</button>
+        </div>
+    
+        <button type="button" class="modal__close">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <rect width="40" height="40" rx="20" ></rect>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12.2929 12.2929C12.6834 11.9024 13.3166 11.9024 13.7071 12.2929L20 18.5858L26.2929 12.2929C26.6834 11.9024 27.3166 11.9024 27.7071 12.2929C28.0976 12.6834 28.0976 13.3166 27.7071 13.7071L21.4142 20L27.7071 26.2929C28.0976 26.6834 28.0976 27.3166 27.7071 27.7071C27.3166 28.0976 26.6834 28.0976 26.2929 27.7071L20 21.4142L13.7071 27.7071C13.3166 28.0976 12.6834 28.0976 12.2929 27.7071C11.9024 27.3166 11.9024 26.6834 12.2929 26.2929L18.5858 20L12.2929 13.7071C11.9024 13.3166 11.9024 12.6834 12.2929 12.2929Z"
+              fill="black"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </div>
 
     <section id="contacts" class="link">
       <div class="container">
@@ -147,5 +188,6 @@
         </div>
       </div>
     </footer>
+    <script src="test.js"></script>
   </body>
 </html>
